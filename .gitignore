@@ -11,3 +11,5 @@ targetConfigs
 .cproject
 .project
 *.cmd
+Makefile
+p.elf

@@ -30,7 +30,7 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
  BIS.B #1, &P1DIR ; assign P1.0 as output/light
 
  BIS.B #2, &P1REN
- BIS.B #2, &P1OUT ; set P1.1 to be a pull-up resister
+ BIS.B #2, &P1OUT ; set P1.1 to be a pull-up resistor
 
 BTNOFF:
  BIS.B #1, &P1OUT
